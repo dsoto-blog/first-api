@@ -25,7 +25,7 @@ exports.handler = async (event, context) => {
         return {
             headers: { 'Content-Type':'application/json'},            
             statusCode: 500,
-            body: JSON.stringify({ error: ""}),   
+            body: JSON.stringify({ error: "Buumm!!! Error a la vista, prueba mas tarde"}),   
         }     
     
     }

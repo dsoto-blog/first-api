@@ -2,5 +2,9 @@
   "name": "first-api",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "got": "^11.8.1"
+  }
 }
